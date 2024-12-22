@@ -303,7 +303,7 @@ label {
   }
 }
 @media (max-width: 480px) {
-  #bio {
+  #bio, #mailingList {
     padding: 80px 32px;
   }
 }
