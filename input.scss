@@ -162,10 +162,18 @@ h1 {
     letter-spacing: 2px;    
 }
 
+.hero {
+    height: 500px;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 3.5rem; 
         letter-spacing: 1px; 
+    }
+
+    .hero {
+        height: 300px;
     }
 }
 
@@ -173,6 +181,10 @@ h1 {
     h1 {
         font-size: 2rem; 
         letter-spacing: 0.5px; 
+    }
+
+    .hero {
+        height: 200px;
     }
 }
 
