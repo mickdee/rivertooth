@@ -229,6 +229,7 @@ footer {
     font-optical-sizing: auto !important;
     font-weight: 300 !important;
     font-style: normal !important;
+    width: 100% !important;
     max-width: 480px !important;
     margin: auto;
 }
@@ -292,5 +293,22 @@ label {
         font-family: "Amarante", serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .track-row {
+        margin-right: auto;
+        flex-direction: column;
+
+        p {
+            margin-bottom: 8px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #bio {
+        padding: 80px 32px;
     }
 }
