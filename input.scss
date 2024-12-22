@@ -1,0 +1,279 @@
+.macondo-swash-caps-regular {
+    font-family: "Macondo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .amarante-regular {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+body {
+    margin: 0;
+    min-height: 100vh; /* Allows the page to grow with content */
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+main {
+    height: 100vh; /* Ensures full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('rivertooth-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0; /* Prevents shrinking when content overflows */
+}
+
+#bio {
+    padding: 80px;
+    background-color: #FFFBDB;
+    color: #333;
+}
+
+#mailingList {
+    padding: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-dark {
+    background-color: #193235;
+    color: white;
+}
+
+.squares-container {
+    margin: auto;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.square {
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+}
+
+.sq-1 {
+    background-color: #EDE05A;
+}
+
+.sq-2 {
+    background-color: #C5DFF3;
+    margin-left: 8px;    
+}
+
+.sq-3 {
+    background-color: #B0B97F;
+    margin-left: 8px;
+}
+
+#bio .container, #mailingList .container {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#bio h2, #mailingList h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+#bio p, #mailingList p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: "Merriweather", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    letter-spacing: 2px;    
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem; 
+        letter-spacing: 1px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem; 
+        letter-spacing: 0.5px; 
+    }
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for nav */
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+footer {
+    font-size: 14px;
+    padding: 40px;
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    
+
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.9);
+    background-image: url('rug.png');
+    background-size: contain;
+    background-position: top;
+}
+
+#mc_embed_signup {
+    background: none !important;
+    font-size: 18px !important;
+    line-height: 1.8 !important;
+    font-family: "Merriweather", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    max-width: 480px !important;
+    margin: auto;
+}
+
+.mc-field-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 16px;
+}
+
+input {
+    padding: 8px;
+    font-family: "Merriweather", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+}
+
+label {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.optionalParent {
+    display: flex;
+    justify-content: right;
+}
+
+.foot {
+    display:flex;
+    margin-top: 16px;
+    background-color: none;
+}
+
+#mc-embedded-subscribe {
+    background-color: #E7A641;
+    padding: 16px;
+    font-family: "Amarante", serif !important;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: 0px solid transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
