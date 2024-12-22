@@ -254,29 +254,29 @@ label {
 }
 
 .optionalParent {
-    display: flex;
-    justify-content: right;
+    display: flex !important;
+    justify-content: right !important;
 }
 
 .foot {
-    display:flex;
-    margin-top: 16px;
-    background-color: none;
+    display:flex !important;
+    margin-top: 16px !important;
+    background-color: none !important;
 }
 
 #mc-embedded-subscribe {
-    background-color: #E7A641;
-    padding: 16px;
+    background-color: #E7A641 !important;
+    padding: 16px !important;
     font-family: "Amarante", serif !important;
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    border: 0px solid transparent;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    color: white !important;
+    outline: none !important;
+    border-radius: 4px !important;
+    border: 0px solid transparent !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4)!important;
+    cursor: pointer !important;
 }
 
 .track-row {
@@ -289,6 +289,7 @@ label {
     p {
         font-size: 22px !important;
         padding: 0;
+        padding-right: 16px;
         margin: 0;
         font-family: "Amarante", serif !important;
         font-weight: 400 !important;
@@ -303,6 +304,7 @@ label {
 
         p {
             margin-bottom: 8px;
+            padding-right: 0px;
         }
     }
 }
