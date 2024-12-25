@@ -338,3 +338,20 @@ label {
         background-size: cover;
     }
 }
+
+.video-container {
+
+width: 100%;
+max-width: 640px;
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+margin:auto;
+margin-top: 40px;
+}
+
+.video-container video {
+width: 100%;
+height: auto;
+display: block;
+}
