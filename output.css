@@ -67,7 +67,7 @@ body {
   color: white;
   opacity: 0;
   /* Initially hidden */
-  animation: fadeIn 1.5s ease-in-out forwards;
+  animation: fadeIn 1s ease-in-out forwards;
   /* Play the fade-in animation */
 }
 

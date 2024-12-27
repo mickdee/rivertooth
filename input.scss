@@ -65,7 +65,7 @@ body {
     flex-direction: column;
     color: white;
     opacity: 0; /* Initially hidden */
-    animation: fadeIn 1.5s ease-in-out forwards; /* Play the fade-in animation */
+    animation: fadeIn 1s ease-in-out forwards; /* Play the fade-in animation */
 }
 
 /* Define the fadeIn keyframes */
