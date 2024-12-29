@@ -239,7 +239,7 @@ footer {
   font-size: 14px;
   padding: 40px;
   text-align: center;
-  background-image: url("rug.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("rug.png");
   background-size: contain;
   background-position: top;
 }
