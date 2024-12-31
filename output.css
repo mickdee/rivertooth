@@ -98,7 +98,7 @@ main {
 
 #bio {
   padding: 80px;
-  background-color: #FFFBDB;
+  background: repeating-linear-gradient(90deg, #FFFBDB, #FFFBDB 20px, #FAF5D0 20px, #FAF5D0 40px);
   color: #333;
 }
 
